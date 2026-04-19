@@ -7,7 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-50: oklch(98.7% 0.022 95.277);
     --font-weight-medium: 500;
+    --font-weight-black: 900;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -161,8 +163,35 @@
   }
 }
 @layer utilities {
+  .left-full {
+    left: 100%;
+  }
   .m-auto {
     margin: auto;
+  }
+  .mt-\[0px\] {
+    margin-top: 0px;
+  }
+  .mt-\[3\] {
+    margin-top: 3;
+  }
+  .mt-\[31px\] {
+    margin-top: 31px;
+  }
+  .mt-\[36px\] {
+    margin-top: 36px;
+  }
+  .mt-\[40px\] {
+    margin-top: 40px;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
+  .mt-\[70px\] {
+    margin-top: 70px;
+  }
+  .ml-\[25px\] {
+    margin-left: 25px;
   }
   .flex {
     display: flex;
@@ -173,6 +202,30 @@
   .table {
     display: table;
   }
+  .h-\[871\] {
+    height: 871;
+  }
+  .h-\[871px\] {
+    height: 871px;
+  }
+  .w-\[1\] {
+    width: 1;
+  }
+  .w-\[100\%\] {
+    width: 100%;
+  }
+  .w-\[330\] {
+    width: 330;
+  }
+  .w-\[330px\] {
+    width: 330px;
+  }
+  .w-\[360\] {
+    width: 360;
+  }
+  .w-\[360px\] {
+    width: 360px;
+  }
   .max-w-\[1200px\] {
     max-width: 1200px;
   }
@@ -182,11 +235,20 @@
   .resize {
     resize: both;
   }
+  .flex-col {
+    flex-direction: column;
+  }
   .items-center {
     align-items: center;
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .gap-\[10px\] {
+    gap: 10px;
   }
   .gap-\[50px\] {
     gap: 50px;
@@ -204,8 +266,23 @@
   .bg-\[\#061B3A\] {
     background-color: #061B3A;
   }
+  .bg-\[\#B0D0FF\] {
+    background-color: #B0D0FF;
+  }
+  .bg-\[white\] {
+    background-color: white;
+  }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
+  }
   .p-\[17px_18px\] {
     padding: 17px 18px;
+  }
+  .p-\[20px_50px\] {
+    padding: 20px 50px;
+  }
+  .p-\[20px_\] {
+    padding: 20px ;
   }
   .p-\[22p\] {
     padding: 22p;
@@ -215,6 +292,9 @@
   }
   .p-\[22px_18px\] {
     padding: 22px 18px;
+  }
+  .p-\[22px_22px\] {
+    padding: 22px 22px;
   }
   .p-\[22px_\] {
     padding: 22px ;
@@ -231,11 +311,24 @@
   .text-\[0px\] {
     font-size: 0px;
   }
+  .text-\[16px\] {
+    font-size: 16px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
   .text-\[24px\] {
     font-size: 24px;
+  }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -254,6 +347,26 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .lg\:mt-\[66px\] {
+    @media (width >= 64rem) {
+      margin-top: 66px;
+    }
+  }
+  .lg\:mt-\[141px\] {
+    @media (width >= 64rem) {
+      margin-top: 141px;
+    }
+  }
+  .lg\:ml-\[-70px\] {
+    @media (width >= 64rem) {
+      margin-left: -70px;
+    }
+  }
+  .lg\:ml-\[-\] {
+    @media (width >= 64rem) {
+      margin-left: -;
+    }
+  }
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
@@ -262,6 +375,66 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:w-\[0px\] {
+    @media (width >= 64rem) {
+      width: 0px;
+    }
+  }
+  .lg\:w-\[463\] {
+    @media (width >= 64rem) {
+      width: 463;
+    }
+  }
+  .lg\:w-\[463px\] {
+    @media (width >= 64rem) {
+      width: 463px;
+    }
+  }
+  .lg\:w-\[561\] {
+    @media (width >= 64rem) {
+      width: 561;
+    }
+  }
+  .lg\:w-\[561px\] {
+    @media (width >= 64rem) {
+      width: 561px;
+    }
+  }
+  .lg\:w-\[580px\] {
+    @media (width >= 64rem) {
+      width: 580px;
+    }
+  }
+  .lg\:w-\[580pxl\:\] {
+    @media (width >= 64rem) {
+      width: 580pxl:;
+    }
+  }
+  .lg\:w-\[644px\] {
+    @media (width >= 64rem) {
+      width: 644px;
+    }
+  }
+  .lg\:w-\[1006\] {
+    @media (width >= 64rem) {
+      width: 1006;
+    }
+  }
+  .lg\:w-\[1006px\] {
+    @media (width >= 64rem) {
+      width: 1006px;
+    }
+  }
+  .lg\:justify-between {
+    @media (width >= 64rem) {
+      justify-content: space-between;
+    }
+  }
+  .lg\:text-\[64px\] {
+    @media (width >= 64rem) {
+      font-size: 64px;
     }
   }
 }
