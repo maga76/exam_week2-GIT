@@ -337,6 +337,9 @@
   .ml-\[25px\] {
     margin-left: 25px;
   }
+  .ml-\[30px\] {
+    margin-left: 30px;
+  }
   .ml-\[53px\] {
     margin-left: 53px;
   }
@@ -517,6 +520,9 @@
   .w-\[700px\] {
     width: 700px;
   }
+  .w-\[852px\] {
+    width: 852px;
+  }
   .w-\[auto\] {
     width: auto;
   }
@@ -568,6 +574,9 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-\[6px\] {
     gap: 6px;
   }
@@ -580,8 +589,17 @@
   .gap-\[12px\] {
     gap: 12px;
   }
+  .gap-\[13px\] {
+    gap: 13px;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
   .gap-\[16px\] {
     gap: 16px;
+  }
+  .gap-\[17px\] {
+    gap: 17px;
   }
   .gap-\[20px\] {
     gap: 20px;
@@ -592,8 +610,20 @@
   .gap-\[30px\] {
     gap: 30px;
   }
+  .gap-\[40px\] {
+    gap: 40px;
+  }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[80px\] {
+    gap: 80px;
+  }
+  .gap-\[93px\] {
+    gap: 93px;
+  }
+  .gap-\[px\] {
+    gap: px;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -898,6 +928,9 @@
   .text-\[\#ffffff\] {
     color: #ffffff;
   }
+  .text-\[g\] {
+    color: g;
+  }
   .text-\[gray\] {
     color: gray;
   }
@@ -1021,6 +1054,11 @@
       margin-top: 66px;
     }
   }
+  .lg\:mt-\[70px\] {
+    @media (width >= 64rem) {
+      margin-top: 70px;
+    }
+  }
   .lg\:mt-\[80px\] {
     @media (width >= 64rem) {
       margin-top: 80px;
@@ -1041,6 +1079,11 @@
       margin-top: 100px;
     }
   }
+  .lg\:mt-\[102px\] {
+    @media (width >= 64rem) {
+      margin-top: 102px;
+    }
+  }
   .lg\:mt-\[130px\] {
     @media (width >= 64rem) {
       margin-top: 130px;
@@ -1049,6 +1092,11 @@
   .lg\:mt-\[141px\] {
     @media (width >= 64rem) {
       margin-top: 141px;
+    }
+  }
+  .lg\:mt-\[px\] {
+    @media (width >= 64rem) {
+      margin-top: px;
     }
   }
   .lg\:mb-\[14px\] {
@@ -1099,6 +1147,26 @@
   .lg\:ml-\[0px\] {
     @media (width >= 64rem) {
       margin-left: 0px;
+    }
+  }
+  .lg\:ml-\[50px\] {
+    @media (width >= 64rem) {
+      margin-left: 50px;
+    }
+  }
+  .lg\:ml-\[60px\] {
+    @media (width >= 64rem) {
+      margin-left: 60px;
+    }
+  }
+  .lg\:ml-\[70px\] {
+    @media (width >= 64rem) {
+      margin-left: 70px;
+    }
+  }
+  .lg\:ml-\[80px\] {
+    @media (width >= 64rem) {
+      margin-left: 80px;
     }
   }
   .lg\:block {
@@ -1389,6 +1457,11 @@
   .lg\:text-\[16px\] {
     @media (width >= 64rem) {
       font-size: 16px;
+    }
+  }
+  .lg\:text-\[26px\] {
+    @media (width >= 64rem) {
+      font-size: 26px;
     }
   }
   .lg\:text-\[28px\] {
